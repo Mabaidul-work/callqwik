@@ -27,6 +27,9 @@ module.exports = {
   theme: {
     extend: {
       colors: generateColorUtilities(theme.colors),
+      maxWidth: {
+        "screen-1.5xl": "1440px",
+      },
     },
   },
   plugins: [],
