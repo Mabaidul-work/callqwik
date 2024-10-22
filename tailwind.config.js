@@ -30,6 +30,10 @@ module.exports = {
       maxWidth: {
         "screen-1.5xl": "1440px",
       },
+      fontSize: {
+        "2.5xl": "28px",
+        "4.5xl": "40px",
+      },
     },
   },
   plugins: [],
