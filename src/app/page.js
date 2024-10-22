@@ -1,11 +1,12 @@
-import { Header } from "@/components";
+import { Header, HeroSection } from "@/components";
+import { Button } from "@/components/ui";
 
 export default function Home() {
-  console.log("home page");
-
   return (
     <div className="min-h-screen">
       <Header />
+
+      <HeroSection />
     </div>
   );
 }

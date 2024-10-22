@@ -1,14 +1,15 @@
-import { WebsiteLogo } from "@/constants/images";
+import { WEBSITE_LOGO } from "@/constants/images";
 import Image from "next/image";
 import React from "react";
+import { Button } from "../ui";
 
 const Header = () => {
   return (
-    <header className="w-full h-40 lg:h-24">
-      <div className="max-w-screen-1.5xl flex items-center justify-between px-4 py-3 lg:px-16 lg:py-5">
+    <header className="w-full h-20 lg:h-24">
+      <div className="max-w-screen-1.5xl mx-auto h-full flex items-center justify-between px-4 md:px-8 lg:px-16 py-3 lg:py-5">
         <div className="">
           <Image
-            src={WebsiteLogo}
+            src={WEBSITE_LOGO}
             alt="Website logo"
             width={110}
             height={20}
@@ -16,9 +17,7 @@ const Header = () => {
           />
         </div>
         <div>
-          <button className="w-32 h-9 lg:w-48 lg:h-14 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full text-white text-sm md:text-base lg:text-lg font-bold">
-            Join Waitlist
-          </button>
+          <Button variant="primary">Join wishlist</Button>
         </div>
       </div>
     </header>

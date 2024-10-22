@@ -1,2 +1,2 @@
-export const WebsiteLogo = "/images/website-logo.svg";
-export const tickIcon = "/images/tick-icon.svg";
+export const WEBSITE_LOGO = "/images/website-logo.svg";
+export const TICK_ICON = "/images/icons/tick-icon.svg";
