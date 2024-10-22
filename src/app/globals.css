@@ -34,3 +34,23 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, #FF43A9 0%, #FFA873 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .lg-border-gradient {
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #FF43A9 0%, #FFA873 100%);
+    border-image-slice: 1;
+  }
+}
+
+
