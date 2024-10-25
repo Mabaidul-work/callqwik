@@ -31,8 +31,19 @@ module.exports = {
         "screen-1.5xl": "1440px",
       },
       fontSize: {
-        "2.5xl": "28px",
-        "4.5xl": "40px",
+        "2.5xl": ["28px", { lineHeight: "38px" }],
+        "3.5xl": ["32px", { lineHeight: "44px" }],
+        "4.5xl": ["40px", { lineHeight: "60px" }],
+        "5.5xl": ["56px", { lineHeight: "80px" }],
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 17s linear infinite",
       },
     },
   },
