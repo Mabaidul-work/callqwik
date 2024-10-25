@@ -18,7 +18,7 @@ export const TRACKER_ICON = "/images/icons/tracker-icon.svg";
 
 export const IM_INTEGRATION = "/images/steps/im-integration.png";
 export const INSTANT_CONNECTION = "/images/steps/instant-connection.png";
-export const VOICE_ASSISTANT = "/images/steps/voice-assistant.png";
+export const VOICE_ASSISTANT = "/images/steps/voice-assistant.webp";
 export const PREFERRED_CRM = "/images/steps/preferred-crm.png";
 export const ONE_ON_ONE_CONVERSATION =
   "/images/steps/one-on-one-conversation.png";
@@ -37,7 +37,7 @@ export const REAL_ESTATE = "/images/steps/real-estate.png";
 export const AGENCIES = "/images/steps/agencies.png";
 export const HOME_SERVICES = "/images/steps/home-service.png";
 export const HOSPITALITY = "/images/steps/hospitality.png";
-export const EDUCATION = "/images/steps/education.png";
+export const EDUCATION = "/images/steps/education.webp";
 
 export const OPEN_IN_NEW = "/images/icons/open-in-new.svg";
 
