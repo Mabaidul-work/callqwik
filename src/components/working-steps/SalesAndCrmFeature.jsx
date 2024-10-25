@@ -8,7 +8,7 @@ const SalesAndCrmFeature = ({ title, description, imageUrl }) => {
         alt={title}
         width={384}
         height={384}
-        className="w-full h-full object-contain"
+        className="object-cover"
         priority
         sizes="(max-width: 768px) 100vw, 384px"
         srcSet={`${imageUrl}?w=192 192w,
