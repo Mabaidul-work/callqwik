@@ -8,7 +8,7 @@ export async function POST(req) {
   const { to, subject, message } = await req.json();
 
   try {
-    const response = await resend.sendEmail({
+    const response = await resend.emails.send({
       from: "website@callqwik.ai",
       to,
       subject,

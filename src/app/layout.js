@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
-import "./globals.css";
 import Script from "next/script";
+import "./globals.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,24 +31,28 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://callqwik.ai/",
-    title: "Your Website Name",
-    description: "Your website description goes here",
-    siteName: "Your Website Name",
+    title: "CallQwik AI: 3x Your Pipeline with a 24/7 AI Receptionist",
+    description:
+      "CallQwik AI's 24/7 AI Receptionist triples your pipeline by capturing leads around the clock. Streamline engagement and maximize growth effortlessly",
+    siteName: "CallQwik AI: 3x Your Pipeline with a 24/7 AI Receptionist",
     images: [
       {
-        url: "",
+        url: "https://isometrik-website-bucket.s3.ap-south-1.amazonaws.com/website_logo_3_45d1d58b1d.svg",
         width: 1200,
         height: 630,
-        alt: "Your Website OG Image",
+        alt: "Callqwik AI Image",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Website Name",
-    description: "Your website description goes here",
+    title: "CallQwik AI: 3x Your Pipeline with a 24/7 AI Receptionist",
+    description:
+      "CallQwik AI's 24/7 AI Receptionist triples your pipeline by capturing leads around the clock. Streamline engagement and maximize growth effortlessly",
     creator: "@Callqwik AI",
-    images: [""],
+    images: [
+      "https://isometrik-website-bucket.s3.ap-south-1.amazonaws.com/website_logo_3_45d1d58b1d.svg",
+    ],
   },
 };
 
