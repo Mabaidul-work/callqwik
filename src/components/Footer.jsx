@@ -44,9 +44,9 @@ const Footer = () => {
           <div className="md:hidden flex flex-col items-center justify-center gap-6">
             {Object.entries(footerNavLinks).map(([category, links]) => (
               <div key={category} className="flex flex-col gap-3">
-                <h2 className="font-semibold text-white text-center">
+                <p className="font-semibold text-white text-center">
                   {category}
-                </h2>
+                </p>
                 <div className="flex flex-col gap-3">
                   {links.map((link) => (
                     <a
@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="hidden md:flex md:justify-between items-start w-full md:max-w-[721px]">
             {Object.entries(footerNavLinks).map(([category, links]) => (
               <div key={category} className="flex flex-col gap-3">
-                <h2 className="font-semibold text-white">{category}</h2>
+                <p className="font-semibold text-white">{category}</p>
                 <div className="flex flex-col gap-3">
                   {links.map((link) => (
                     <a

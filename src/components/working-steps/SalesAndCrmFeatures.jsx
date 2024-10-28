@@ -10,9 +10,7 @@ const SalesAndCrmFeatures = () => {
           featureName="Sales & CRM Features"
           headerTitle={
             <>
-              Features for your online
-              <br />
-              sales agents
+              Features for your online <br /> sales agents
             </>
           }
           buttonLabel="Join Waitlist"

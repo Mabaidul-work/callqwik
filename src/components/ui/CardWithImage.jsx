@@ -19,9 +19,9 @@ const CardWithImage = ({
       />
 
       <div className="flex flex-col items-center justify-center gap-3">
-        <p className="text-center font-bold text-black-600 text-xl lg:text-2xl">
+        <h3 className="text-center font-bold text-black-600 text-xl lg:text-2xl">
           {title}
-        </p>
+        </h3>
         <p className="text-center font-medium text-base lg:text-lg">
           {description}
         </p>

@@ -13,9 +13,9 @@ const FeatureSection = ({ section, featureDetails }) => {
 
   return (
     <div className="mb-8 w-full flex flex-col items-center justify-center">
-      <h2 className="text-2xl md:text-3xl lg:text-5xl mb-6 md:mb-12 lg:mb-16 text-center font-extrabold text-black-600">
+      <h3 className="text-2xl md:text-3xl lg:text-5xl mb-6 md:mb-12 lg:mb-16 text-center font-extrabold text-black-600">
         {section}
-      </h2>
+      </h3>
       <div className="list-none w-full max-w-xl ">
         {featureDetails?.map((featureDetail, index) => (
           <div
@@ -30,9 +30,9 @@ const FeatureSection = ({ section, featureDetails }) => {
               onClick={() => handleToggle(index)}
               className="flex items-center justify-between cursor-pointer"
             >
-              <h3 className="font-extrabold text-xl md:text-2xl lg:text-3.5xl gradient-text">
+              <h4 className="font-extrabold text-xl md:text-2xl lg:text-3.5xl gradient-text">
                 {featureDetail.section}
-              </h3>
+              </h4>
               <Image
                 src={DOWN_ARROW}
                 alt={"toggle arrow"}

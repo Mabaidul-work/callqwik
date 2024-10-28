@@ -35,7 +35,7 @@ const HeroSection = () => {
                 className="bg-black-50 lg:bg-transparent  rounded-full lg:border lg:border-primary-500 w-full h-12 text-sm md:text-base lg:text-lg font-medium text-black-300 px-6 lg:max-w-80 focus:outline-green-500"
               />
               <Button variant="primary" className="h-12 lg:h-12 w-full">
-                Join wishlist
+                Join Waitlist
               </Button>
             </div>
           </div>
@@ -74,7 +74,7 @@ const HeroSection = () => {
               className="bg-black-50 lg:bg-transparent  rounded-full lg:border lg:border-primary-500 w-full h-12 text-sm md:text-base lg:text-lg font-medium text-black-300 px-6  lg:max-w-80 focus:outline-green-500"
             />
             <Button variant="primary" className="h-12 w-full">
-              Join wishlist
+              Join Waitlist
             </Button>
           </div>
         </div>

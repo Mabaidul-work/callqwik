@@ -121,9 +121,9 @@ const Testimonials = () => {
                         />
                         <p className="text-lg mb-5">{item.testimonial}</p>
                         <div className="flex items-center gap-2 mb-2">
-                          <h3 className="font-extrabold text-xl text-black-700">
+                          <p className="font-extrabold text-xl text-black-700">
                             {item.name}
-                          </h3>
+                          </p>
                           <Image
                             src={SEAL_CHECK_FILL}
                             alt="seal check fill"
