@@ -2,12 +2,12 @@ import ChatAndCallfeatures from "./ChatAndCallfeatures";
 import SalesAndCrmFeatures from "./SalesAndCrmFeatures";
 import Usecases from "./Usecases";
 
-const WorkingSteps = () => {
+const WorkingSteps = ({showModal}) => {
   return (
     <div className="w-full">
-      <ChatAndCallfeatures />
-      <SalesAndCrmFeatures />
-      <Usecases />
+      <ChatAndCallfeatures showModal={showModal} />
+      <SalesAndCrmFeatures showModal={showModal} />
+      <Usecases showModal={showModal} />
     </div>
   );
 };

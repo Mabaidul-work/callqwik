@@ -126,7 +126,7 @@ export default function Home() {
     }
   };
 
-  console.log(email);
+  // console.log(email);
 
   return (
     <div className="min-h-screen">
@@ -177,7 +177,7 @@ export default function Home() {
       </Modal>
 
       <Header showModal={showModal} />
-      <HeroSection />
+      <HeroSection showModal={showModal} handleChange={handleChange} />
       <CompanyList
         companies={trustedCompanies}
         sectionHeaderName={"Trusted by B2B companies globally"}
@@ -185,7 +185,7 @@ export default function Home() {
         headerTextSizes="text-xl md:text-2xl lg:text-3xl"
       />
       <SalesChallanges />
-      <WorkingSteps />
+      <WorkingSteps showModal={showModal} />
 
       <CompanyList
         companies={integrationCompanies}

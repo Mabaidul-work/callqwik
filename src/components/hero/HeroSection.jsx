@@ -4,7 +4,7 @@ import { THUMNAIL_HERO } from "@/constants/images";
 import Image from "next/image";
 import { Button, UnorderedList } from "../ui";
 
-const HeroSection = () => {
+const HeroSection = ({ showModal, handleChange }) => {
   return (
     <section className="w-full">
       <div className="max-w-screen-1.5xl mx-auto w-full px-4 md:px-16 lg:px-16 xl:px-28 py-10 md:py-14 lg:py-16 flex flex-col lg:flex-row items-start lg:items-center justify-center gap-6 md:gap-10 xl:gap-14">
@@ -32,9 +32,14 @@ const HeroSection = () => {
                 name="email"
                 id="email"
                 placeholder="Enter Email Address"
+                onChange={(e) => handleChange(e.target.value)}
                 className="bg-black-50 lg:bg-transparent  rounded-full lg:border lg:border-primary-500 w-full h-12 text-sm md:text-base lg:text-lg font-medium text-black-300 px-6 lg:max-w-80 focus:outline-green-500"
               />
-              <Button variant="primary" className="h-12 lg:h-12 w-full">
+              <Button
+                variant="primary"
+                className="h-12 lg:h-12 w-full"
+                onClick={showModal}
+              >
                 Join Waitlist
               </Button>
             </div>
@@ -71,9 +76,14 @@ const HeroSection = () => {
               name="email"
               id="email"
               placeholder="Enter Email Address"
+              onChange={(e) => handleChange(e.target.value)}
               className="bg-black-50 lg:bg-transparent  rounded-full lg:border lg:border-primary-500 w-full h-12 text-sm md:text-base lg:text-lg font-medium text-black-300 px-6  lg:max-w-80 focus:outline-green-500"
             />
-            <Button variant="primary" className="h-12 w-full">
+            <Button
+              variant="primary"
+              className="h-12 w-full"
+              onClick={showModal}
+            >
               Join Waitlist
             </Button>
           </div>

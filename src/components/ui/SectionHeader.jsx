@@ -5,6 +5,7 @@ const SectionHeader = ({
   headerTitle,
   buttonLabel,
   className = "max-w-lg lg:max-w-[819px]",
+  showModal,
 }) => {
   return (
     <div
@@ -17,7 +18,7 @@ const SectionHeader = ({
         {headerTitle}
       </h2>
 
-      <Button>{buttonLabel}</Button>
+      <Button onClick={showModal}>{buttonLabel}</Button>
     </div>
   );
 };
